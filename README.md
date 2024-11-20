@@ -1,5 +1,7 @@
 ### study-of-basic-gates
 
+DHINESHKUMAR E (24900879)
+
 **AIM:** 
 
 To study and verify the truth table of logic gates in Quartus II using Verilog programming.
@@ -45,7 +47,7 @@ The 'Exclusive-OR' gate is a circuit which will give a high output if either, bu
 Y= A⊕B
 
 **Ex-NOR gate**
-
+DHINESHKUMAR E (24900879)
 The 'Exclusive-NOR' gate circuit does the opposite to the EX-OR gate. It will give a low output if either, but not both of its two inputs are high. The symbol is an EX-OR gate with a small circle on the output. The small circle represents inversion.
 Y= A⊕B
 
@@ -64,16 +66,19 @@ Y= A⊕B
 
 **PROGRAM**
 
-Program for logic gates and verify its truth table in quartus using Verilog programming
-
- Developed by: RegisterNumber: 
+module EXP1(a,b,y1,y2,y3,y4,y5,y6,y7); input a,b; output y1,y2,y3,y4,y5,y6,y7; and g1(y1,a,b); or g2(y2,a,b); not g3(y3,a); nand g4(y4,a,b); nor g5(y5,a,b); xor g6(y6,a,b); xnor g7(y7,a,b); endmodule
  
 **Logic symbol & Truthtable**
 
+![image](https://github.com/user-attachments/assets/eb275ade-6025-4320-9875-36ee6c16b9aa)
+
 **RTL realization Output:** 
+
+![image](https://github.com/user-attachments/assets/efbb9480-39db-43c7-a623-cf1b140999eb)
 
 **RTL**
 
+![image](https://github.com/user-attachments/assets/3f0ac071-079d-4321-a745-d15b9fc1c0c9)
+
 **Result:**
-
-
+studied and verify the truth table of logic gates in Quartus II using Verilog programming.
